@@ -1,0 +1,184 @@
+body{
+    background:white;
+    
+}
+
+.navibar{
+     border-top:0;
+     box-shadow: 10px 10px 5px #CACFD2;
+     background: #AAB7B8; 
+     width:auto;
+     margin-top:15px;
+     font-size: 22px;
+     font-weight:300;
+     padding: 30px 20px 30px 20px;
+     text-align:left;
+     margin-top:10px;
+     margin-left:0px;
+	 font-family: 'Raleway', sans-serif;
+	 
+}
+
+.navibar a{
+    color:#85C1E9;
+    text-decoration:none;
+}
+.myButton {
+	background-color:	#300000 ;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #000000 ;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size:10px;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.ul1{margin:10px; 
+padding-top:10px; 
+line-height:-10px; }
+.ul1 li{list-style:none; 
+color: #F5F5F5; display:inline;}
+.ul1 a:link{color:#F5F5F5; 
+font-size:22px; 
+text-decoration:none;
+margin:5px;}
+
+.ul1 a:hover{color:white; 
+text-decoration:underline;}
+
+
+.center { 
+	text-align: center;
+}
+
+.center img { 
+	margin: 0 5px;
+}
+
+.clear { 
+	clear: both
+}
+
+.right { 
+	margin: 15px; 
+	float: right
+}
+	.left { 
+	margin: 15px; 
+	float: left
+}
+
+body { 
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Raleway', sans-serif;
+	background: #000; 
+	color: #FFF
+}
+
+header { 
+	text-align: center; 
+	background-color: #707B7C; 
+	height: 220px; 
+}
+
+header h1, header h2 { 
+	display: none;
+}
+
+
+
+#header .nav ul li a:hover 
+
+#header .nav ul li a + active { 
+	color: #F00 } 
+
+.active { 
+	color: #F00 
+}
+
+.style_index {
+	border-top: 3px dashed #8c8b8b;
+}
+
+#content { 
+	margin: 0 auto; 
+	width: 900px;
+}
+
+#content .profile-image { 
+	float: left; 
+	margin: 0 15px 15px 0
+}
+
+#content h1 { 
+	border-bottom: 2px solid #999; 
+	padding: 0 0 5px 0; 
+	color: #F00 
+}
+
+#content h3 { 
+	border-bottom: 2px solid #999; 
+	padding: 0 0 5px 0;
+}
+
+#content .main_news strong { 
+	color: #F00
+}
+
+#content .pcbkcontainer img { 
+	width: 280px; 
+	height: 210px;
+}
+
+footer p { 
+	text-align: center; 
+	color: #F00
+}
+
+
+/*history*/
+p {
+     line-height: 1.4;
+    margin-left:100px;
+    margin-right:100px;
+}
+history { 
+    font-family: 'Raleway', sans-serif;
+	color: #F00;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 0.8;
+    
+}
+.history_img{
+    float:right;
+    margin-right:100px;
+    margin-left:30px;
+}
+
+/*advocacy-page*/
+h3 { font-size: 25px;}
+h4 { font-size: 22px;}
+.history_img2{
+    width:100%;
+}
+
+
+
+
