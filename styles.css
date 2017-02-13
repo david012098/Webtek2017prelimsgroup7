@@ -172,12 +172,32 @@ h2 {
     margin-left:30px;
 }
 
+/*Universal Declaration of Human Rights*/
+.history_img2{
+    float:left;
+    margin-right:100px;
+    margin-left:30px;
+    width: 600px;
+    height: 750px;
+}
+
+.human_title1{
+	font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+.human_title2{
+	font-family: 'Diavlo Light', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    color:red;
+}
+
 /*advocacy-page*/
 h3 { font-size: 25px;}
 h4 { font-size: 22px;}
-.history_img2{
-    width:100%;
-}
 
 
 
