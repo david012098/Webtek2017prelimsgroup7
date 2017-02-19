@@ -12,7 +12,9 @@ body{background:gray;}
 	 font-family: 'Raleway', sans-serif;
 	 
 }
-
+h1 {
+    text-align: center;
+}
 .index_img{
 	float:center;
 	width: 1350px;
@@ -24,6 +26,8 @@ body{background:gray;}
 }
 
 .advocacy_img1{
+    border-style: solid;
+    border-color: red;
 	float:right;
 	width: 450px;
 	height: 300px;
@@ -34,7 +38,9 @@ body{background:gray;}
 }
 
 .advocacy_img2{
-	float:left;
+    border-style: solid;
+    border-color: red;
+    float:left;
 	width: 450px;
 	height: 300px;
     transform: all .5s ease-in-out;
@@ -193,6 +199,7 @@ h2 {
     
 }
 .history_img{
+    
     float:right;
     margin-right:100px;
     margin-left:30px;
@@ -206,10 +213,20 @@ h2 {
 }
 
 
-.advocacy-page{
+hr.style_advocacy{ 
+ height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+}
+    
+
+    
 h3 { font-size: 25px;}
 h4 { font-size: 22px;}
-}
+  text-align: center;
+
 .history_img2{
     width:100%;
 }
@@ -217,5 +234,4 @@ h4 { font-size: 22px;}
 audio { 
    display:none;
 }
-
 
