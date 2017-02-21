@@ -1,0 +1,27 @@
+Steps (Virtual host)
+1. sudo apt-get update
+2. sudo apt-get install apache2
+3. sudo mkdir -p /var/www/yoursite.com/public_html
+4. sudo chown -R $USER:$USER /var/www/yoursite.com/public_html
+5. sudo chown -R 755 /var/www
+6. cd var/www/yoursite.com/public_html
+7. nano /var/www/yoursite.com/public_html
+	**Make html code**
+8. Ctrl+x, Y, Enter
+9. cd.. **until you reach webtek@webtek2017 directory
+10. sudo cp /etc/apache2/sites-available/000-default.conf (space) etc/apache2/sites-available/yoursite.com.conf
+11. sudo nano /etc/apache2/sites-available/yoursite.com.conf
+	**remove comments**
+12. Replace "ServerAdmin webmaster@localhost" to "ServerAdmin admin@yoursite.com"
+13. Add below ServerAdmin "ServerName yoursite.com
+14. Add below ServerName "ServerAlias www.yoursite.com"
+15. Replace "DocumentRoot /var/www/html" to "DocumentRoot /var/www/yoursite.com/public_html"
+16. Ctrl+x, Y, Enter
+17. sudo a2ensite yoursite.com.conf
+18. sudo service apache2 restart
+19. ifconfig
+	**take note of your IP address(inet addr)
+20. sudo nano /etc/hosts
+21. add your IP address below 127.0.1.1 following your domain name
+22. Ctrl+x, Y, Enter
+23. Test in your site in your web browser by entering your IP addr
