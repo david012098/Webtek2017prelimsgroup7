@@ -32,3 +32,7 @@ SERVER SIDE INCLUDES (SSI):
 
 NOTE:	Doon sa may /var/www/html/ssi.org at sa may /var/www/html/xbithack na folder, gawa ka ng index.html 
 	na file para malaman kung working yung site.
+
+NOTE:	Dalawang index.html na file. Para gumawa ng index.html na file sa 
+	/var/www/html/ssi.org 	:	sudo nano /var/www/html/ssi.org/index.html
+	/var/www/html/xbithack	:	sudo nano /var/www/html/ssi.org/xbithack/index.html
