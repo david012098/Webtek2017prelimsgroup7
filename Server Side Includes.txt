@@ -1,0 +1,34 @@
+SERVER SIDE INCLUDES (SSI):
+1. 	Create a folder for the site 
+ 	sudo mkdir /var/www/html/ssi.org
+
+2. 	Create a conf file 
+	sudo nano /etc/apache2/sites-available/ssi.org.conf
+
+3. 	Lagay lahat ito doon sa #2
+	<VirtualHost *:80>
+	ServerName webtek.ssi.org
+	DocumentRoot /var/www/html/ssi.org
+
+	#para sa filename extension-based 
+	<Directory "/var/www/html/ssi.org">
+		Options +Includes
+		AddType text/html INCLUDES .shtml
+	</Directory>
+
+	#x-bithack directive
+	<Directory "/var/www/html/ssi.org/xbithack">
+		XBitHack on
+	</Directory>
+	</VirtualHost>
+
+4. 	Tapos ctrl+x, y and enter to save
+
+5. 	Enable conf file
+	sudo a2ensite ssi.org.conf
+
+6. 	restart apache
+	sudo service apache2 restart
+
+NOTE:	Doon sa may /var/www/html/ssi.org at sa may /var/www/html/xbithack na folder, gawa ka ng index.html 
+	na file para malaman kung working yung site.
